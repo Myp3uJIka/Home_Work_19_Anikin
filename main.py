@@ -2,7 +2,9 @@ from flask import Flask
 from flask_restx import Api
 
 from app.config import Config
+from app.dao.model.director import Director
 from app.dao.model.user import User
+from app.implemented import user_service
 from app.setup_db import db
 from app.views.directors import director_ns
 from app.views.genres import genre_ns
@@ -39,6 +41,7 @@ def register_extensions(app):
 
 app = create_app(Config())
 app.debug = True
+
 
 if __name__ == '__main__':
     app.run(host="localhost", port=10001, debug=True)
