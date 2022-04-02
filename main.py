@@ -3,8 +3,8 @@ from flask_restx import Api
 
 from app.config import Config
 from app.setup_db import db
-from app.views import director_ns
-from app.views import genre_ns
+from app.views.directors import director_ns
+from app.views.genres import genre_ns
 from app.views.movies import movie_ns
 
 
