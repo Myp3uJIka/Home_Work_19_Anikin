@@ -18,7 +18,6 @@ class UserDAO:
         self.session.add(new_user)
         self.session.commit()
 
-    def save_data(self, user):
-        self.session.add(user)
+    def save_data(self):
         self.session.commit()
 

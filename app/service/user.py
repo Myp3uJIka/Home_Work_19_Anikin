@@ -22,8 +22,8 @@ class UserService:
     def create(self, user):
         return self.dao.create(user)
 
-    def save_data(self, user):
-        return self.dao.save_data(user)
+    def save_data(self, ):
+        return self.dao.save_data()
 
     def get_hash(self, password):
         return hashlib.pbkdf2_hmac(
@@ -36,6 +36,7 @@ class UserService:
     def check_user(self, data):
         if 'username' not in data or 'password' not in data:
             abort(400)
+        data['password'] = self.get_hash(data['password'])
         user = self.get_one(data)
         if user:
             return True

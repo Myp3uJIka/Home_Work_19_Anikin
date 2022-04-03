@@ -24,6 +24,13 @@ def create_data(app, db):
             db.session.add_all([u1, u2, u3])
 
 
+def password_to_hash():
+    all_users = user_service.get_all()
+    for user in all_users:
+        user.password = user_service.get_hash(user.password)
+        user_service.save_data()
+
+
 def create_app(config_object):
     app = Flask(__name__)
     app.config.from_object(config_object)
@@ -47,12 +54,8 @@ app.debug = True
 
 
 # with app.app_context():
-#     users = user_service.get_all()
-#     for user in users:
-#         print(user.password)
-#         print(user_service.get_hash(user.password))
-#         print('*' * 20)
-#     print(db.session.query(User).filter(User.username == 'oleg', User.password == 'qwerty').all())
+#     password_to_hash()
+
 
 if __name__ == '__main__':
     app.run(host="localhost", port=10001, debug=True)
