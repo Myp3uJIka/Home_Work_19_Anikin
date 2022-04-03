@@ -16,8 +16,8 @@ class UserService:
     def get_all(self):
         return self.dao.get_all()
 
-    def get_one(self, name):
-        return self.dao.get_one(name)
+    def get_one(self, data):
+        return self.dao.get_one(data)
 
     def save_data(self, user):
         return self.dao.save_data(user)
@@ -33,21 +33,21 @@ class UserService:
     def check_user(self, data):
         if 'username' not in data or 'password' not in data:
             abort(400)
-        user = UserDAO.get_one(data['username'])
-        if user.password == data['password']:
+        user = self.get_one(data)
+        if user:
             return True
         else:
             return False
 
     def create_atoken(self, data):
-        data['role'] = data.get('role', 'user')
+        data['role'] = self.get_one(data)[0].role
         min30 = datetime.datetime.utcnow() + datetime.timedelta(minutes=30)
         data['exp'] = calendar.timegm(min30.timetuple())
         access_token = jwt.encode(data, SECRET, algorithm=ALGO)
         return access_token
 
     def create_rtoken(self, data):
-        data['role'] = data.get('role', 'user')
+        data['role'] = self.get_one(data)[0].role
         days30 = datetime.datetime.utcnow() + datetime.timedelta(days=30)
         data['exp'] = calendar.timegm(days30.timetuple())
         refresh_token = jwt.encode(data, SECRET, algorithm=ALGO)

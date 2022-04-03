@@ -8,8 +8,10 @@ class UserDAO:
     def get_all(self):
         return self.session.query(User).all()
 
-    def get_one(self, name):
-        return self.session.query(User).filter_by(User.username == name)
+    def get_one(self, data):
+        name = data['username']
+        pwd = data['password']
+        return self.session.query(User).filter(User.username == name, User.password == pwd).all()
 
     def save_data(self, user):
         self.session.add(user)
