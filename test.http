@@ -1,0 +1,60 @@
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "vasya",
+  "password": "my_little_pony"
+}
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+
+{
+  "username": "oleg",
+  "password": "P@ssw0rd"
+}
+
+###
+
+POST http://localhost:10001/movies/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6Ilx1MDAxYlx1MDAwNlx1MDAxOVx1YzE2OVpcdTAwMWV0Slx1MDUwMEJcdTAwMDNbXHUwMDAzalx1MDAxOVxyQVx1MDAwZlx1MDAwMVx1MDAxMyIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY0ODk2MzQwN30.829nLcmpodSOCU_GXY2l6M-O2Mq0GcZY4lmn3_FyQtc
+
+{
+  "title": "new movie",
+  "description": "some_description"
+}
+
+###
+
+DELETE http://localhost:10001/movies/22
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6IlBAc3N3MHJkIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNjQ4OTU4NjExfQ.AyU88zCsfS465kL6haZovwy62BjdHikmVqpvGwCK4Mc
+
+###
+GET http://localhost:10001/movies/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InZhc3lhIiwicGFzc3dvcmQiOiJcdTAwMTVidSE2XHUwMDA2Ylx1MDAwMlxuQD9fe3ZcdTAwMTZcdTAwMWRcdTAxMzhzRSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjQ4OTYzMjk5fQ.Wl_90hh0eS1HG6F-DDawuYnvJouyllXvAXyu2FGcMZs
+
+
+###
+
+GET http://localhost:10001/users/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InZhc3lhIiwicGFzc3dvcmQiOiJcdTAwMTVidSE2XHUwMDA2Ylx1MDAwMlxuQD9fe3ZcdTAwMTZcdTAwMWRcdTAxMzhzRSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjQ4OTYzNTQwfQ.5NoxdHWWwUcE7oS0HZZV4NOYuyyn_-VKqy1GQ_Rh-8A
+
+###
+
+POST http://localhost:10001/users/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6IlBAc3N3MHJkIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNjQ4OTYxNDI0fQ.M0La8TqRERWe0qFYAzfJFd1HPxtYTg5S-8hRr8iL7QA
+
+{
+  "username": "new_name",
+  "password": "nothing"
+}
+
+###
+
