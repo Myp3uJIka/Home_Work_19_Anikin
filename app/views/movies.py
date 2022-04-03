@@ -1,12 +1,8 @@
-import jwt
-
 from flask import request
 from flask_restx import Resource, Namespace
-from flask_restx.errors import abort
 
-from app.constants import SECRET, ALGO
 from app.dao.model.movie import MovieSchema
-from app.fucntions.fuctions import auth_required, admin_required
+from app.fuctions import auth_required, admin_required
 from app.implemented import movie_service
 
 movie_ns = Namespace('movies')
