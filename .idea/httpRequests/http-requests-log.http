@@ -1,0 +1,565 @@
+POST http://localhost:10001/users/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6Ilx1MDAxYlx1MDAwNlx1MDAxOVx1YzE2OVpcdTAwMWV0Slx1MDUwMEJcdTAwMDNbXHUwMDAzalx1MDAxOVxyQVx1MDAwZlx1MDAwMVx1MDAxMyIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY0ODk2ODI5Nn0.tlQOEAlp9YtRH-W0-YTYRarC9pPqbfouNi44vZm1HQw
+
+{
+  "smth": "smth",
+  "username": "new_name_2",
+  "password": "nothing",
+  "role": "admin"
+}
+
+<> 2022-04-03T161815.401.json
+
+###
+
+POST http://localhost:10001/users/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6Ilx1MDAxYlx1MDAwNlx1MDAxOVx1YzE2OVpcdTAwMWV0Slx1MDUwMEJcdTAwMDNbXHUwMDAzalx1MDAxOVxyQVx1MDAwZlx1MDAwMVx1MDAxMyIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY0ODk2ODI5Nn0.tlQOEAlp9YtRH-W0-YTYRarC9pPqbfouNi44vZm1HQw
+
+{
+  "smth": "smth",
+  "username": "new_name_2",
+  "password": "nothing",
+  "role": "admin"
+}
+
+<> 2022-04-03T161800.401.json
+
+###
+
+POST http://localhost:10001/users/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6Ilx1MDAxYlx1MDAwNlx1MDAxOVx1YzE2OVpcdTAwMWV0Slx1MDUwMEJcdTAwMDNbXHUwMDAzalx1MDAxOVxyQVx1MDAwZlx1MDAwMVx1MDAxMyIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY0ODk2ODI5Nn0.tlQOEAlp9YtRH-W0-YTYRarC9pPqbfouNi44vZm1HQw
+
+{
+  "username": "new_name_2",
+  "password": "nothing",
+  "role": "admin"
+}
+
+<> 2022-04-03T161717.201.json
+
+###
+
+POST http://localhost:10001/users/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6Ilx1MDAxYlx1MDAwNlx1MDAxOVx1YzE2OVpcdTAwMWV0Slx1MDUwMEJcdTAwMDNbXHUwMDAzalx1MDAxOVxyQVx1MDAwZlx1MDAwMVx1MDAxMyIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY0ODk2ODI5Nn0.tlQOEAlp9YtRH-W0-YTYRarC9pPqbfouNi44vZm1HQw
+
+{
+  "username": "new_name_2",
+  "password": "nothing",
+  "role": "admin"
+}
+
+<> 2022-04-03T161624.201.json
+
+###
+
+POST http://localhost:10001/users/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6Ilx1MDAxYlx1MDAwNlx1MDAxOVx1YzE2OVpcdTAwMWV0Slx1MDUwMEJcdTAwMDNbXHUwMDAzalx1MDAxOVxyQVx1MDAwZlx1MDAwMVx1MDAxMyIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY0ODk2ODI5Nn0.tlQOEAlp9YtRH-W0-YTYRarC9pPqbfouNi44vZm1HQw
+
+{
+  "username": "new_name_2",
+  "password": "nothing",
+  "role": "admin"
+}
+
+<> 2022-04-03T161604.201.json
+
+###
+
+POST http://localhost:10001/users/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6Ilx1MDAxYlx1MDAwNlx1MDAxOVx1YzE2OVpcdTAwMWV0Slx1MDUwMEJcdTAwMDNbXHUwMDAzalx1MDAxOVxyQVx1MDAwZlx1MDAwMVx1MDAxMyIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY0ODk2ODI5Nn0.tlQOEAlp9YtRH-W0-YTYRarC9pPqbfouNi44vZm1HQw
+
+{
+  "username": "new_name_2",
+  "password": "nothing"
+}
+
+<> 2022-04-03T161538.201.json
+
+###
+
+POST http://localhost:10001/users/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6Ilx1MDAxYlx1MDAwNlx1MDAxOVx1YzE2OVpcdTAwMWV0Slx1MDUwMEJcdTAwMDNbXHUwMDAzalx1MDAxOVxyQVx1MDAwZlx1MDAwMVx1MDAxMyIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY0ODk2ODI5Nn0.tlQOEAlp9YtRH-W0-YTYRarC9pPqbfouNi44vZm1HQw
+
+{
+  "username": "new_name",
+  "password": "nothing"
+}
+
+<> 2022-04-03T161520.201.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "oleg",
+  "password": "P@ssw0rd"
+}
+
+<> 2022-04-03T161456.201.json
+
+###
+
+GET http://localhost:10001/users/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InZhc3lhIiwicGFzc3dvcmQiOiJcdTAwMTVidSE2XHUwMDA2Ylx1MDAwMlxuQD9fe3ZcdTAwMTZcdTAwMWRcdTAxMzhzRSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjQ4OTYzNTQwfQ.5NoxdHWWwUcE7oS0HZZV4NOYuyyn_-VKqy1GQ_Rh-8A
+
+<> 2022-04-03T145555.401.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "vasya",
+  "password": "my_little_pony"
+}
+
+<> 2022-04-03T145540.201.json
+
+###
+
+GET http://localhost:10001/users/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6Ilx1MDAxYlx1MDAwNlx1MDAxOVx1YzE2OVpcdTAwMWV0Slx1MDUwMEJcdTAwMDNbXHUwMDAzalx1MDAxOVxyQVx1MDAwZlx1MDAwMVx1MDAxMyIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY0ODk2MzQwN30.829nLcmpodSOCU_GXY2l6M-O2Mq0GcZY4lmn3_FyQtc
+
+<> 2022-04-03T145518.200.json
+
+###
+
+GET http://localhost:10001/users/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6IlBAc3N3MHJkIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNjQ4OTYxNDI0fQ.M0La8TqRERWe0qFYAzfJFd1HPxtYTg5S-8hRr8iL7QA
+
+<> 2022-04-03T145451.401.json
+
+###
+
+POST http://localhost:10001/movies/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6Ilx1MDAxYlx1MDAwNlx1MDAxOVx1YzE2OVpcdTAwMWV0Slx1MDUwMEJcdTAwMDNbXHUwMDAzalx1MDAxOVxyQVx1MDAwZlx1MDAwMVx1MDAxMyIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY0ODk2MzQwN30.829nLcmpodSOCU_GXY2l6M-O2Mq0GcZY4lmn3_FyQtc
+
+{
+  "title": "new movie",
+  "description": "some_description"
+}
+
+<> 2022-04-03T145409.201.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "oleg",
+  "password": "P@ssw0rd"
+}
+
+<> 2022-04-03T145327.201.json
+
+###
+
+POST http://localhost:10001/movies/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InZhc3lhIiwicGFzc3dvcmQiOiJcdTAwMTVidSE2XHUwMDA2Ylx1MDAwMlxuQD9fe3ZcdTAwMTZcdTAwMWRcdTAxMzhzRSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjQ4OTYzMjk5fQ.Wl_90hh0eS1HG6F-DDawuYnvJouyllXvAXyu2FGcMZs
+
+{
+  "title": "new movie",
+  "description": "some_description"
+}
+
+<> 2022-04-03T145322.401.json
+
+###
+
+GET http://localhost:10001/movies/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InZhc3lhIiwicGFzc3dvcmQiOiJcdTAwMTVidSE2XHUwMDA2Ylx1MDAwMlxuQD9fe3ZcdTAwMTZcdTAwMWRcdTAxMzhzRSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjQ4OTYzMjk5fQ.Wl_90hh0eS1HG6F-DDawuYnvJouyllXvAXyu2FGcMZs
+
+<> 2022-04-03T145302.200.json
+
+###
+
+GET http://localhost:10001/movies/
+Content-Type: application/json
+Authorization: Bearer e9yJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InZhc3lhIiwicGFzc3dvcmQiOiJcdTAwMTVidSE2XHUwMDA2Ylx1MDAwMlxuQD9fe3ZcdTAwMTZcdTAwMWRcdTAxMzhzRSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjQ4OTYzMjk5fQ.Wl_90hh0eS1HG6F-DDawuYnvJouyllXvAXyu2FGcMZs
+
+<> 2022-04-03T145255.401.json
+
+###
+
+GET http://localhost:10001/movies/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InZhc3lhIiwicGFzc3dvcmQiOiJcdTAwMTVidSE2XHUwMDA2Ylx1MDAwMlxuQD9fe3ZcdTAwMTZcdTAwMWRcdTAxMzhzRSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjQ4OTYzMjk5fQ.Wl_90hh0eS1HG6F-DDawuYnvJouyllXvAXyu2FGcMZs
+
+<> 2022-04-03T145247.200.json
+
+###
+
+POST http://localhost:10001/movies/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InZhc3lhIiwicGFzc3dvcmQiOiJcdTAwMTVidSE2XHUwMDA2Ylx1MDAwMlxuQD9fe3ZcdTAwMTZcdTAwMWRcdTAxMzhzRSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjQ4OTYzMjk5fQ.Wl_90hh0eS1HG6F-DDawuYnvJouyllXvAXyu2FGcMZs
+
+{
+  "title": "new movie",
+  "description": "some_description"
+}
+
+<> 2022-04-03T145211.401.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "vasya",
+  "password": "my_little_pony"
+}
+
+<> 2022-04-03T145139.201.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "vasya",
+  "password": "my_little_pony"
+}
+
+<> 2022-04-03T145034.201.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "oleg",
+  "password": "P@ssw0rd"
+}
+
+<> 2022-04-03T145030.201.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "vasya",
+  "password": "my_little_pony"
+}
+
+<> 2022-04-03T145027.201.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "oleg",
+  "password": "P@ssw0rd"
+}
+
+<> 2022-04-03T144833.500.html
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "oleg",
+  "password": "P@ssw0rd"
+}
+
+<> 2022-04-03T144734.401.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "vasya",
+  "password": "my_little_pony"
+}
+
+<> 2022-04-03T144724.401.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "oleg",
+  "password": "P@ssw0rd"
+}
+
+<> 2022-04-03T144550.401.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "vasya",
+  "password": "my_little_pony"
+}
+
+<> 2022-04-03T144540.401.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "oleg",
+  "password": "P@ssw0rd"
+}
+
+<> 2022-04-03T144509.201.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "vasya",
+  "password": "my_little_pony"
+}
+
+<> 2022-04-03T144448.201.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "vasya",
+  "password": "my_little_pony"
+}
+
+<> 2022-04-03T143605.401.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "vasya",
+  "password": "my_little_pony"
+}
+
+<> 2022-04-03T143424.401.json
+
+###
+
+POST http://localhost:10001/users/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6IlBAc3N3MHJkIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNjQ4OTYxNDI0fQ.M0La8TqRERWe0qFYAzfJFd1HPxtYTg5S-8hRr8iL7QA
+
+{
+  "username": "new_name",
+  "password": "nothing"
+}
+
+<> 2022-04-03T142453.201.json
+
+###
+
+POST http://localhost:10001/users/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6IlBAc3N3MHJkIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNjQ4OTYxNDI0fQ.M0La8TqRERWe0qFYAzfJFd1HPxtYTg5S-8hRr8iL7QA
+
+{
+  "username": "new_name",
+  "password": "nothing"
+}
+
+<> 2022-04-03T142324.401.json
+
+###
+
+POST http://localhost:10001/users/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6IlBAc3N3MHJkIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNjQ4OTYxNDI0fQ.M0La8TqRERWe0qFYAzfJFd1HPxtYTg5S-8hRr8iL7QA
+
+{
+  "username": "new_name",
+  "password": "nothing"
+}
+
+<> 2022-04-03T142216.401.json
+
+###
+
+GET http://localhost:10001/users/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6IlBAc3N3MHJkIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNjQ4OTYxNDI0fQ.M0La8TqRERWe0qFYAzfJFd1HPxtYTg5S-8hRr8iL7QA
+
+<> 2022-04-03T142202.200.json
+
+###
+
+POST http://localhost:10001/users/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6IlBAc3N3MHJkIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNjQ4OTYxNDI0fQ.M0La8TqRERWe0qFYAzfJFd1HPxtYTg5S-8hRr8iL7QA
+
+{
+  "username": "new_name",
+  "password": "nothing"
+}
+
+<> 2022-04-03T142142.401.json
+
+###
+
+GET http://localhost:10001/users/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6IlBAc3N3MHJkIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNjQ4OTYxNDI0fQ.M0La8TqRERWe0qFYAzfJFd1HPxtYTg5S-8hRr8iL7QA
+
+<> 2022-04-03T142036.200.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "oleg",
+  "password": "P@ssw0rd"
+}
+
+<> 2022-04-03T142024.201.json
+
+###
+
+GET http://localhost:10001/users/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InZhc3lhIiwicGFzc3dvcmQiOiJteV9saXR0bGVfcG9ueSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjQ4OTYxMzgxfQ.XIZB6tAyCtV7HwcqnMuey1opC7215yDu4POu1guYTkc
+
+<> 2022-04-03T142010.401.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "vasya",
+  "password": "my_little_pony"
+}
+
+<> 2022-04-03T141941.201.json
+
+###
+
+GET http://localhost:10001/users/
+
+<> 2022-04-03T141932.401.json
+
+###
+
+DELETE http://localhost:10001/movies/22
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6IlBAc3N3MHJkIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNjQ4OTU4NjExfQ.AyU88zCsfS465kL6haZovwy62BjdHikmVqpvGwCK4Mc
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "oleg",
+  "password": "P@ssw0rd"
+}
+
+<> 2022-04-03T133331.201.json
+
+###
+
+DELETE http://localhost:10001/movies/22
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InZhc3lhIiwicGFzc3dvcmQiOiJteV9saXR0bGVfcG9ueSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjQ4OTU4NTYxfQ.uMrhh0-sK7mjfP-Z0Wtna5lQ0XXiRpWxUVeEq09s1-E
+
+<> 2022-04-03T133311.401.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "vasya",
+  "password": "my_little_pony"
+}
+
+<> 2022-04-03T133241.201.json
+
+###
+
+POST http://localhost:10001/movies/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6IlBAc3N3MHJkIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNjQ4OTU4NDI2fQ.41SITSr2gBrMyHvUmLcZ6lwGRWST00YqyRTKBZhvT4I
+
+{
+  "title": "new movie",
+  "description": "some_description"
+}
+
+<> 2022-04-03T133117.201.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "oleg",
+  "password": "P@ssw0rd"
+}
+
+<> 2022-04-03T133026.201.json
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "oleg",
+  "password": "P@ssw0rd"
+}
+
+<> 2022-04-03T133010.201.json
+
+###
+
+POST http://localhost:10001/movies/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InZhc3lhIiwicGFzc3dvcmQiOiJteV9saXR0bGVfcG9ueSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjQ4OTU4MzQwfQ.6CI_r0d-66gEPLHj8DfqaGXL9DeKWfoIfGBbTVfa2Xw
+
+{
+  "title": "new movie",
+  "description": "some_description"
+}
+
+<> 2022-04-03T132921.401.json
+
+###
+

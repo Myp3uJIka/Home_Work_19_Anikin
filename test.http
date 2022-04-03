@@ -49,11 +49,12 @@ Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InZhc
 
 POST http://localhost:10001/users/
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6IlBAc3N3MHJkIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNjQ4OTYxNDI0fQ.M0La8TqRERWe0qFYAzfJFd1HPxtYTg5S-8hRr8iL7QA
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6Ilx1MDAxYlx1MDAwNlx1MDAxOVx1YzE2OVpcdTAwMWV0Slx1MDUwMEJcdTAwMDNbXHUwMDAzalx1MDAxOVxyQVx1MDAwZlx1MDAwMVx1MDAxMyIsInJvbGUiOiJhZG1pbiIsImV4cCI6MTY0ODk2ODI5Nn0.tlQOEAlp9YtRH-W0-YTYRarC9pPqbfouNi44vZm1HQw
 
 {
-  "username": "new_name",
-  "password": "nothing"
+  "username": "new_name_2",
+  "password": "nothing",
+  "role": "admin"
 }
 
 ###

@@ -22,6 +22,8 @@ class UserViews(Resource):
             return {"error": 'Необходимо указать username'}, 400
         if 'password' not in req_json:
             return {"error": 'Необходимо указать password'}, 400
+        else:
+            req_json['password'] = user_service.get_hash(req_json['password'])
         if 'role' not in req_json:
             req_json['role'] = 'user'
             print(req_json)
