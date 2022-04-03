@@ -1,0 +1,48 @@
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "vasya",
+  "password": "my_little_pony"
+}
+
+###
+
+POST http://localhost:10001/auth/
+Content-Type: application/json
+
+{
+  "username": "oleg",
+  "password": "P@ssw0rd"
+}
+
+###
+
+POST http://localhost:10001/movies/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InZhc3lhIiwicGFzc3dvcmQiOiJteV9saXR0bGVfcG9ueSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjQ4OTU4NTYxfQ.uMrhh0-sK7mjfP-Z0Wtna5lQ0XXiRpWxUVeEq09s1-E
+
+{
+  "title": "new movie",
+  "description": "some_description"
+}
+
+###
+
+DELETE http://localhost:10001/movies/22
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Im9sZWciLCJwYXNzd29yZCI6IlBAc3N3MHJkIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNjQ4OTU4NjExfQ.AyU88zCsfS465kL6haZovwy62BjdHikmVqpvGwCK4Mc
+
+###
+GET http://localhost:10001/movies/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6InZhc3lhIiwicGFzc3dvcmQiOiJteV9saXR0bGVfcG9ueSIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjQ4OTQ5MTc5fQ.3hmQMZT_WcQlpcXQ7JSTIFjNs6IYOoMayy2c53LIjQI
+
+
+###
+
+GET http://localhost:10001/genres/
+
+
+###
+

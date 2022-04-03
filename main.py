@@ -3,6 +3,7 @@ from flask_restx import Api
 
 from app.config import Config
 from app.dao.model.user import User
+from app.implemented import user_service
 from app.setup_db import db
 from app.views.auth import auth_ns
 from app.views.directors import director_ns
@@ -44,6 +45,11 @@ app.debug = True
 
 
 # with app.app_context():
+#     users = user_service.get_all()
+#     for user in users:
+#         print(user.password)
+#         print(user_service.get_hash(user.password))
+#         print('*' * 20)
 #     print(db.session.query(User).filter(User.username == 'oleg', User.password == 'qwerty').all())
 
 if __name__ == '__main__':

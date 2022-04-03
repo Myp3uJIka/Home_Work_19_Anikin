@@ -1,7 +1,6 @@
 import jwt
+
 from flask_restx.errors import abort
-
-
 from app.constants import SECRET, ALGO
 from app.service.user import UserService
 
